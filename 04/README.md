@@ -1,4 +1,4 @@
-# 数据显示
+# AngularJS2 TypeScript 环境配置
 
 ## 创建配置文件
 
