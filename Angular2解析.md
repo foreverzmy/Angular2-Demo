@@ -4,7 +4,7 @@ Angular 应用的 8个主要构造块：
 
 * 模块modules
 * 组件components
-* 模板template
+* 模板templates
 * 元数据metadata
 * 数据绑定data binding
 * 指令directive
