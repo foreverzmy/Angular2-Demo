@@ -1,0 +1,14 @@
+<div>
+  <div>
+    <span>Number:1</span>
+    <app-amount [(value)]='number1'></app-amount>
+  </div>
+  <div>
+    <span>Number:1</span>
+    <app-amount [value]='number2' (valueChange)='number2=$event'></app-amount>
+  </div>
+  <ul>
+    <li>Number 1:父组件当前值：{{number1}}</li>
+    <li>Number 2:父组件当前值：{{number2}}</li>
+  </ul>
+</div>

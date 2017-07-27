@@ -1,0 +1,20 @@
+<div class="home">
+  <carousel>
+    <slide *ngFor='let slidez of slides;let index=index' [active]="slidez.active">
+      <div class="slide-image">
+        <img [src]='slidez.img'>
+      </div>
+
+      <div class="carousel-caption">
+        <p>{{slidez.text}}</p>
+      </div>
+    </slide>
+  </carousel>
+
+  <section>
+    <h2 class="hero-title">
+      <span>12345435</span>个用户正在使用
+    </h2>
+  </section>
+  <div class="divider"></div>
+</div>
